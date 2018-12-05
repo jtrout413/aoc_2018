@@ -7,14 +7,13 @@ import (
 )
 
 func main() {
-	fmt.Println("Running Day2...")
-	//part1()
-	//part2()
+	part1()
+	part2()
 }
 
 func part1() {
 
-	b, err := ioutil.ReadFile("input_2_1.txt")
+	b, err := ioutil.ReadFile("input_2.txt")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -68,7 +67,7 @@ func part1() {
 
 func part2() {
 
-	b, err := ioutil.ReadFile("input_2_1.txt")
+	b, err := ioutil.ReadFile("input_2.txt")
 	if err != nil {
 		fmt.Println(err)
 	}
